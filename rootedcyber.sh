@@ -1,7 +1,7 @@
 git clone https://github.com/my-fork-repo/Ultroid
 cd Ultroid
-apt install megadown -y
-megadown
-clear
+pip install --upgrade pip
+pip3 install -r req*
+pip3 install -r res*/st*/op*
 pip3 -V
 bash startup
