@@ -1,15 +1,13 @@
 {
-    "name": "Telegram",
-    "description": "You know what it does...",
+    "name": "Der bot",
+    "description": "Hapere",
     "logo": "",
     "keywords": [
-        "Telethon",
-        "telegram",
-        "python"
+        "gehehsh"
     ],
-    "repository": "https://github.com/",
-    "success_url": "https://t.me/Telegram",
-    "stack": "container",
+    "repository": "https://var.com/",
+    "success_url": "https://combat",
+    "stack": "heroku-20",
     "env": {
         "API_ID": {
             "description": "You api id, from my.telegram.org or @ScrapperRoBot.",
@@ -38,18 +36,32 @@
         "HEROKU_API": {
             "description": "Heroku API token. Needed if deploying on heroku ONLY.",
             "value": "",
-            "required": false
+            "required": true
         },
         "HEROKU_APP_NAME": {
             "description": "Name of your heroku app, given in the first blank on this page. To be added if deploying to heroku ONLY.",
             "value": "",
-            "required": false
+            "required":  true
         }
     },
     "formation": {
-        "rootedcyber": {
+      "worker": {
             "quantity": 1,
             "size": "free"
         }
+    },
+    "buildpacks": [
+    {
+        "url":"heroku/python"
+    },
+    {
+        "url":"heroku-community/apt"
+    },
+    {
+        "url":"https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+        "url":"https://github.com/stevo550/buildpack-slug-cleaner"
     }
+    ]
 }
