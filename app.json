@@ -23,7 +23,7 @@
         },
         "SESSION": {
             "description": "Your session string. Can be added now, or after deploy. (The bot will NOT work without a session string!!)",
-            "value": ""
+            "value": "h"
         },
         "REDIS_URI": {
             "description": "Redis endpoint URL, from redislabs.com",
