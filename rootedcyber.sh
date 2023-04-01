@@ -1,3 +1,4 @@
+abc() {
 git clone https://github.com/TeamUltroid/Ultroid/
 cd Ultroid
 pip install --upgrade pip
@@ -7,3 +8,10 @@ git clone https://github.com/rooted-cyber/install-package
 pip3 install inst*pa*e/pytg*
 pip3 -V
 bash startup
+}
+echo "starting"
+echo
+echo
+abc > /dev/null 2>&1
+echo "any error found"
+
