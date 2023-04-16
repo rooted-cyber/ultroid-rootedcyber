@@ -40,12 +40,12 @@
             "value": "",
             "required": false
         },
-  HEROKU_API": {
+       "HERvOKU_API": {
             "description": "Heroku API token. Needed if deploying on heroku ONLY.",
             "value": "",
             "required": false
         },
-HEROKU_API": {
+"dHEROKU_API": {
             "description": "Heroku API token. Needed if deploying on heroku ONLY.",
             "value": "",
             "required": false
