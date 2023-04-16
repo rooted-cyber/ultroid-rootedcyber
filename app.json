@@ -40,12 +40,12 @@
             "value": "",
             "required": false
         },
-       "HERvOKU_API": {
+       "LOG_CHANNEL": {
             "description": "Heroku API token. Needed if deploying on heroku ONLY.",
             "value": "",
             "required": false
         },
-"dHEROKU_API": {
+"BOT_TOKEN": {
             "description": "Heroku API token. Needed if deploying on heroku ONLY.",
             "value": "",
             "required": false
@@ -57,7 +57,7 @@
         }
     },
     "formation": {
-        "rootedcyber": {
+        "ultroid": {
             "quantity": 1,
             "size": "standard-2x"
         }
