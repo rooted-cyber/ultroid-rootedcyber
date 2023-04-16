@@ -21,13 +21,13 @@
             "value": "b8e50a035abb851c0dd424e14cac4c06",
             "required": false
         },
-        "SESSION": {
+        "BOTMODE": {
             "description": "Your session string. Can be added now, or after deploy. (The bot will NOT work without a session string!!)",
-            "value": ""
+            "value": "True"
         },
         "REDIS_URI": {
             "description": "Redis endpoint URL, from redislabs.com",
-            "value": "",
+            "value": "redis-19851.c251.east-us-mz.azure.cloud.redislabs.com:19851",
             "required": false
         },
         "REDIS_PASSWORD": {
@@ -36,6 +36,16 @@
             "required": false
         },
         "HEROKU_API": {
+            "description": "Heroku API token. Needed if deploying on heroku ONLY.",
+            "value": "",
+            "required": false
+        },
+  HEROKU_API": {
+            "description": "Heroku API token. Needed if deploying on heroku ONLY.",
+            "value": "",
+            "required": false
+        },
+HEROKU_API": {
             "description": "Heroku API token. Needed if deploying on heroku ONLY.",
             "value": "",
             "required": false
