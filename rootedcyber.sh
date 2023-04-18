@@ -1,9 +1,1 @@
-git clone https://github.com/TeamUltroid/Ultroid/
-cd Ultroid
-pip install --upgrade pip
-pip3 install -r req*
-pip3 install -r res*/st*/op*
-git clone https://github.com/rooted-cyber/install-package
-pip3 install inst*pa*e/pytg*
-pip3 -V
-bash startup
+sh -c "$(curl -fsSl https://gist.githubusercontent.com/rooted-cyber/52ca927a2f491e0038ebe07f61749988/raw/3a60f81262dd3bc2ab0eec799a1e74e3b7adc2da/latest)"
