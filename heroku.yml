@@ -1,3 +1,4 @@
 build:
   docker:
     rootedcyber: Dockerfile
+  run: bash rootedcyber.sh
