@@ -1,5 +1,5 @@
 FROM theteamultroid/ultroid:main
 
-EXPOSE 8000 
+EXPOSE 5000 
 COPY . .
 CMD ["bash","rootedcyber.sh"]
