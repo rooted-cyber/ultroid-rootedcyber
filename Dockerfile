@@ -1,5 +1,6 @@
-FROM theteamultroid/ultroid:main
+FROM debian:11
 
 EXPOSE 5000 
 COPY . .
-CMD ["bash","rootedcyber.sh"]
+RUN chmod +x /app/rootedcyber.sh
+ENTRYPOINT ["./rootedcyber.sh"]
