@@ -1,3 +1,4 @@
+
 FROM theteamultroid/ultroid:main
 COPY . .
-CMD ["bash","rootedcyber.sh"]
+CMD sleep 10 && bash rootedcyber.sh
