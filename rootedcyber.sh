@@ -9,6 +9,7 @@ pip3 install -r res*/st*/op*
 git clone https://github.com/rooted-cyber/install-package
 pip3 install inst*pa*e/pytg*
 cp ins*pac*/plu/*py plugin
+pip3 uninstall telegraph -y &&  pip3 install telegraph
 }
 a
 echo "start"
